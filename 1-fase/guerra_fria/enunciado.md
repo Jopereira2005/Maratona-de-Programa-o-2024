@@ -1,7 +1,7 @@
 # GUERRA FRIA
 ## Descrição do Problema
 
-  Durante a Guerra Fria a toca de mensagens era realizada de uma forma "especial" a fim de evitar que tropas inimigas interceptassem a mesma e descobrissem segredos e estratégias importantes.
+  Durante a Guerra Fria a troca de mensagens era realizada de uma forma "especial" a fim de evitar que tropas inimigas interceptassem a mesma e descobrissem segredos e estratégias importantes.
 
   Essa forma "especial" de se enviar as mensagens foi definida pela Enigma a qual se utiliza da combinação de sistemas elétricos e mecânicos para criptografar as mensagens e consequentemente deixar elas secretas.
 
@@ -22,7 +22,7 @@
 
 ## Saída
 
-  A Saida deve conter um linha para cada caso de teste. A linha da saída de um caso de test deve conter a frase criptografada. Caso seja informada uma rotação fora do intervalo indicado ou uma palavra exceder o tamanho estipulado deve ser exibido "ERROR" como resposta.
+  A Saida deve conter um linha para cada caso de teste. A linha da saída de um caso de teste deve conter a frase criptografada. Caso seja informada uma rotação fora do intervalo indicado ou uma palavra exceder o tamanho estipulado deve ser exibido "ERROR" como resposta.
 
 ## Exemplos de testes
 

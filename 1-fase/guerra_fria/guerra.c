@@ -8,15 +8,17 @@ int main() {
 
   for(;;) {
     scanf("%i", &rotacao);
-    scanf(" %[^\n]", mensagem);
-    
 
     if(rotacao == 0) 
       break;
 
-    if(rotacao > 20 || rotacao < 1 || strlen(mensagem) > 51) 
-      goto fim;
+    scanf(" %[^\n]", mensagem);
     
+
+    if(rotacao > 20 || rotacao < 1 || strlen(mensagem) > 51) {
+      strcpy(mensagem, "ERROR");
+      goto fim;
+    }
     
     for(int i = 0; i < (strlen(mensagem)); i++) {
       if(mensagem[i] == 'A')
@@ -46,13 +48,11 @@ int main() {
           } 
         }
       }
-    } 
-    fim:
-    if(rotacao > 20 || rotacao < 1 || strlen(mensagem) > 51) 
-      printf("ERROR");
-    else
-      printf("%s \n", mensagem);
+    }
     
+    fim:
+    
+    printf("%s \n", mensagem);
     fflush(stdin);
   }
 }
